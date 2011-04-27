@@ -1,0 +1,10 @@
+syntax: glob
+*.pyc
+.DS_Store
+._*
+*.xcodeproj/*.pbxuser
+*.xcodeproj/*.perspective*
+*.xcodeproj/*.mode*
+
+syntax: regexp
+^build/
